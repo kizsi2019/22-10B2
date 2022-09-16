@@ -1,3 +1,1 @@
-szam = int(input("Adj meg egy számot!"))
-
-print(szam)
+szam = int(input("Adj meg egy számOT"))
