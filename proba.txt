@@ -1,1 +1,1 @@
-proba
+print("Szöveg", end=)
