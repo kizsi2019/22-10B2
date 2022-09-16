@@ -1,4 +1,5 @@
-keresztnev = input(("Mi a keresztneved? "))
+print("Mi a keresztneved? ")
+keresztnev = input()
 vezetek = input("Mi a vezetékneved?" )
-
-print("Szia!", keresztnev,vezetek )
+fullname = vezetek, keresztnev
+print("Szia!", fullname)
