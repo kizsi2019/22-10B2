@@ -4,6 +4,7 @@ szam = random.randint(1, 5)
 
 szam2 = int(input("Adj meg egy számot : "))
 
+print(f"a gondolt szám : {szam}")
 if szam2 == szam:
     print("SIkerült eltaláltad igazi gondolat olvaso vagy!!")
 elif szam2 < szam:
