@@ -1,5 +1,5 @@
 szamlalo = 1
 while szamlalo <= 5:
       print('Programozni jó!')
-      szamlalo = szamlalo + 1      
+      szamlalo = szamlalo + 1 
   
