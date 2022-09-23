@@ -8,3 +8,5 @@ elif szam % 4 == 0:
 else:
     print("Sem hárommal sem néggyel nem osztható")
 
+## Frissitve 2022.09.23
+## Frissitve 2022.09.23
