@@ -10,4 +10,4 @@ if szam % 3 == 0 and szam % 4 == 0:
 elif szam % 3 != 0 and szam % 4 != 0:
     print ("Ez a szám nem osztató se négyel , se háromal")
 
-## Frissitve 2022.09.21 19:55
+## Frissitve 2022.09.23 10:55
