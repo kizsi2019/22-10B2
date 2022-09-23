@@ -8,3 +8,4 @@ elif szam % 4 == 0:
 else:
     print("Sem hárommal sem néggyel nem osztható")
 
+#c
