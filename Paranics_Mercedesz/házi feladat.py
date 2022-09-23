@@ -14,3 +14,5 @@ else:
 ## Frissitve 2022.09.23
 ## Frissitve 2022.09.23
 >>>>>>> 6813e23dfae9eabb61f2e4e14ce35a55126bd31c
+
+
