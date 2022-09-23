@@ -6,3 +6,5 @@ if szam % 3 == 0:
     print("3al oszthato")
 if szam % 4 == 0:
     print("4el oszthato")
+else:
+    print("Nem oszthato semmelyikkel!")
