@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+import random
+szam = 1
+db = 0
+while szam <= 20:
+    veletlen_szam = random.randint(1 , 12)
+    if veletlen_szam
+=======
 szam=int(input("Adj meg egy számot!"))
 if szam % 3 == 0 and szam % 4 == 0:
     print("A szám hárommal és néggyel is osztható!")
@@ -8,11 +16,4 @@ elif szam % 4 == 0:
 else:
     print("Sem hárommal sem néggyel nem osztható")
 
-<<<<<<< HEAD
-#c
-=======
-## Frissitve 2022.09.23
-## Frissitve 2022.09.23
->>>>>>> 6813e23dfae9eabb61f2e4e14ce35a55126bd31c
-
-
+>>>>>>> 1b2acf602ab3a626694816f15c63993abd52fa48
