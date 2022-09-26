@@ -30,3 +30,5 @@ while sor <= 5:
     print('')
     darab_karakter = darab_karakter + 1
     sor = sor + 1
+
+## Frissitve 09.26 9:37
