@@ -3,7 +3,7 @@ sor = 1
 while sor <= 5:
     oszlop  = 1
     while oszlop <= 5:
-        if darab_karakter == oszlop:
+        if darab_karakter == 6-oszlop or darab_karakter == oszlop:
             print('0', end='')
         else:
             print('. ', end='')
