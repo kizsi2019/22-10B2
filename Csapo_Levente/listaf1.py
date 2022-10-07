@@ -7,4 +7,4 @@ while nev != '':
     if nev != '':
       nevek.append(nev)
   
-print(nevek)  
+print(nevek)
