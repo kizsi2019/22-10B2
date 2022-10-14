@@ -6,3 +6,5 @@ nyelvek = ["Python", "C", "C++", "C#", "Java"]
 print(nyelvek.count('Python'))
 nyelvek.append('py')
 print(nyelvek)
+nyelvek_copy = nyelvek.copy()
+print(nyelvek_copy)
