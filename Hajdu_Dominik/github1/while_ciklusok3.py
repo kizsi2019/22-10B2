@@ -5,5 +5,5 @@ while folytatja:
       valasz = input('Mondjam még egyszer? (i/n)')
       if valasz == 'n':
           folytatja = False
-print('>> Program vége! <<')      
+print('Program vége!')      
   
