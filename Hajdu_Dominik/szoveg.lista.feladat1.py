@@ -1,10 +1,10 @@
 szoveg = input("adj meg egy mondatot!")
 if szoveg[-1] == '.':
-    print('Ez a mondatt kijelentő')
+    print('Ez a mondat kijelentő')
 if szoveg[-1] == '?':
-    print('Ez a mondatt kérdő')
+    print('Ez a mondat kérdő')
 if szoveg[-1] == '!':
-    print('Ez a mondatt felkiálltó')
+    print('Ez a mondat felkiálltó')
 else:
-    print('nem irtál mondat zárást!')
+    print('Nem irtál mondat zárást!')
     

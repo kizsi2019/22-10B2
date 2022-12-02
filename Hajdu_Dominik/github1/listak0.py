@@ -9,5 +9,6 @@ print(honapok[3])
 print(honapok[1:3])
 print(honapok[:3])
 print(honapok[2:])
-print(honapok[-1])      
+print(honapok[-1])     
+ 
   
