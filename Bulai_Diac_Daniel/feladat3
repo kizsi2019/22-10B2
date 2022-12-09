@@ -1,0 +1,9 @@
+szam = int(input("adj meg egy számot!"))
+if szam % 3 == 0 and szam % 4 == 0:
+   print("a szám hárommal és néggyel osztható")
+if szam % 4 == 0:
+    print("a szám osztható néggyel")
+elif szam % 4 ==0:
+    print("a szám osztható hárommal!")
+else:
+    print("sem hárommal sem néggyel nem osztható")
