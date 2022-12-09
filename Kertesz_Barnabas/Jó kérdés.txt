@@ -1,2 +1,1 @@
-Jó kérdés milyen nap van?
-Ja Szerda a szopunk.
+Ez egy tesztszöveg mely arra szolgál hogy meg ismerjük a Github müködését
