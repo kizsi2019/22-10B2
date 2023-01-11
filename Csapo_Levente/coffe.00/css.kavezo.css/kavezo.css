@@ -1,19 +1,19 @@
 @import url('https://fonts.google.com/specimen/Abril+Fatface?sort=alpha')
 {
 body
-nav:
-{
+}
+nav{
   background-color: #1E1E1E;
   padding: 15px;
   position: fixed;
 }
 nav a{
-  color: white
-  margin 15px;
+  color: rgb(255, 255, 255);
+  margin: 15px;
 }
 nav a:hover{
-  color: white
-  text-decoration none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 nav a:first-child img{
@@ -21,13 +21,8 @@ nav a:first-child img{
 }
 
 .banner{
-  background-image: url(../foto2.jpg)
-  background-position center center;
+  background-image: url(../foto2.jpg);
+  background-position: center center;
   background-size: cover;
-  height: 400px;
-}
-
-h1{font-family: 'Frederick the Great', cursive;
-  color:aliceblue
-  text-align: center;
+  height:  400px;
 }
