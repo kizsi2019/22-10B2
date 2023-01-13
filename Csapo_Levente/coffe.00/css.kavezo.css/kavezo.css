@@ -3,16 +3,16 @@
 body
 }
 nav{
-  background-color: #1E1E1E
+  background-color: #1E1E1E;
   padding: 15px;
   position: fixed;
 }
 nav a{
-  color: white
+  color: rgb(255, 255, 255);
   margin: 15px;
 }
 nav a:hover{
-  color: white
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -21,8 +21,8 @@ nav a:first-child img{
 }
 
 .banner{
-  backgroubd-image: url(../foto2.jpg)
+  background-image: url(../foto2.jpg);
   background-position: center center;
   background-size: cover;
-  height: 400px;
+  height:  400px;
 }
