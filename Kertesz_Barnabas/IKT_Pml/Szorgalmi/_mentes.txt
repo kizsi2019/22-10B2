@@ -1,0 +1,30 @@
+            <div class="col mb-4">
+                <a data-toggle="modal" data-target="#Panda_V3_3_2">
+                    <div class="card">
+                        <img src="./img/trains/Panda_V3_3_2.png" class="card-img-top" alt="Panda_V3_3_2">
+                        <div class="card-body">
+                            <h5 class="card-title">Panda V3.3.2</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a onclick="alert('Feltöltés folyamatban...')">
+                    <div class="card">
+                        <img src="./img/cs.jpg" class="card-img-top" alt="Hamarosan">
+                        <div class="card-body">
+                            <h5 class="card-title">Panda V2</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-4">
+                <a onclick="alert('Feltöltés folyamatban...')">
+                    <div class="card">
+                        <img src="./img/cs.jpg" class="card-img-top" alt="Hamarosan">
+                        <div class="card-body">
+                            <h5 class="card-title">Panda V1</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
