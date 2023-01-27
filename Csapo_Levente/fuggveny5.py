@@ -15,6 +15,12 @@ def max(lista):
         if elem > max:
             max = elem
     return max
+def osszegzo(lista):
+    osszeg = 0
+    for elem in lista:
+        osszeg += elem
+    return osszeg
 print(lista)
 print("Lista legkisebb eleme:", min(lista))
 print("Lista legnagyobb eleme:", max(lista))
+print("A lista összege: ", osszegzo(lista))
