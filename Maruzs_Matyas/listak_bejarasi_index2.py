@@ -1,0 +1,1 @@
+szavak = ['ajtó', 'tojás', 'Ottó', '']
