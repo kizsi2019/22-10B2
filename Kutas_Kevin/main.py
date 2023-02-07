@@ -1,0 +1,1 @@
+szam = random.
