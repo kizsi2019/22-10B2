@@ -1,0 +1,1 @@
+Ez egy tesztszöveg mely arra szolgál hogy meg ismerjük a Github müködését
