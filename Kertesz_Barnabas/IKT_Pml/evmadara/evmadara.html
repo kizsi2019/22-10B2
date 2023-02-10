@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="evmadara.css">
-  <script src="evmadara.js"></script>
   <script src="jquery.min.js"></script>
   <script src="popper.min.js"></script>
   <script src="bootstrap.min.js"></script>  
+  <script src="evmadara.js"></script>
 </head>
 
 <body>
@@ -64,9 +64,9 @@
           2011-ben kísérletképpen internetes szavazással választatták meg, hogy a három ajánlott faj közül melyik legyen 2012-ben az év madara. Az akciót sikeresnek ítélték, ezért a következő években is így választanak. Kivételt csak a 2018-as év jelentett, a 20 éves visszatérésének évfordulója alkalmából a vándorsólyom kapta ezt a megtisztelő címet.
         </p>
         <p>
-          A természeti értékek védelmét számos egyéb program is segíti. A "Föld Napja Alapítvány" gyűjtéséből {http://fna.hu/hir/vadonelok2021} megtudhatjuk, hogy 2021-ben az...
+          A természeti értékek védelmét számos egyéb program is segíti. A "Föld Napja Alapítvány" <a href="http://fna.hu/hir/vadonelok2021" target="_blank">gyűjtéséből</a> megtudhatjuk, hogy 2021-ben az...
         </p>
-        <ol>
+        <ul class="lista">
           <li>év kétéltűje a <span class="dijazott">zöld varangy</span>,</li>
           <li>év fája a <span class="dijazott">lisztes berkenye</span>,</li>
           <li>év emlőse a <span class="dijazott">hermelin</span>,</li>
@@ -75,7 +75,7 @@
           <li>év vadvirága a <span class="dijazott">vetési konkoly</span>,</li>
           <li>év hala a <span class="dijazott">jászkeszeg</span>,</li>
           <li>év gyógynövénye a <span class="dijazott">fekete nadálytő</span>.</li>        
-        </ol>    
+        </ul>    
         <p>A 2021-es "Év városi madara" szavazás még nem zárult le. A versenyben lévő 15 madárra ősz derekéig lehet szavazni. A 2020-as év városi madara a <span class="dijazott">vörösbegy</span> volt.</p>    
       </div>
       <div id="ev2021" class="col-lg-7 nyertes">
@@ -161,11 +161,11 @@
         <p>Melyik évben melyik madár viselhette az "Év madara" címet?</p>
         <p class="font-italic">A válaszhoz használd az időszalagot vagy nézz meg egy <span id="velGomb" onclick="veletlen();">véletlen</span> évszámot!</p>        
         <div id="evszalag">         
-          <input type="range" id="ev" min="1979" max="2015" title="Válassz évet!">        
+          <input type="range" id="ev" min="1979" max="2015" title="Válassz évet!" onchange="frissit();">        
         </div>
         <div id="nevjegy">
           <h2><span id="evszam">?</span> <small> év madara</small></h2>
-          <h3 class="madar">?</h3>
+          <h3 id="madar">?</h3>
         </div>
         <br style="clear: both;">
         <p class="font-italic">A teljes lista a Wikipédia "<a href="https://hu.wikipedia.org/wiki/Az_%C3%A9v_madara" target="_blank">Az év madara</a>" szócikkében olvasható!</p>

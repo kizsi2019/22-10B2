@@ -50,7 +50,7 @@ p {
 
 .dijazott {    
     letter-spacing: 1px;
-    text-decoration:unset;
+    font-style: italic;
 }
 
 .drop-shadow {

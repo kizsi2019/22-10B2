@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OMSI 2 | HUNPaint</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic%20SC%3Ai%2Cbi%2C700%2C400%7CCaveat%3Ai%2Cbi%2C700%2C400%7CLobster%3Ai%2Cbi%2C700%2C400%7CRoboto%3Ai%2Cbi%2C700%2C400&amp;display=swap" rel="stylesheet" nonce="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top fw-bold" style="background-color: #353434">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="./index.html">
+                <img src="./kepek/logo.png" alt="Logo" width="30" height="34" class="d-inline-block align-text-top logo">
+                OMSI 2 | HUNPaint
+            </a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./index.html">Főoldal | Main page</a>
+              </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Letöltések | Downloads
+                </a>
+                <ul class="dropdown-menu bg-white">
+                    <li><a class="dropdown-item fw-bold" href="./letoltes.html#buses">Buszok | Buses</a></li>
+                    <li><a class="dropdown-item fw-bold" href="./letoltes.html#repaints">Festések | Repaints</a></li>
+                    <li><a class="dropdown-item fw-bold" href="./letoltes.html#cars">Autók | Cars</a></li>
+                    <li><a class="dropdown-item fw-bold" href="./letoltes.html#other">Egyéb modok | Other mods</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./projectek.html">Projektek | Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    További lehetőségek
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <li><a class="dropdown-item fw-bold" href="./teams.html">Csapatunk | Our team</a></li>
+                  <li><a class="dropdown-item fw-bold" href="./hagyatekok.html">Hagyatékok | Heritages</a></li>
+                  <li><a class="dropdown-item fw-bold" href="./contact.html">Kapcsolat | Contact</a></li>
+                  <li><a class="dropdown-item fw-bold" href="./adatsafe.html">Adatvédelmi szabályzat | Terms of Conditions</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="banner_download"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+            <h1 id="buses" class="my-4">Járműveink</h1>
+        </div>
+    </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col" data-bs-toggle="modal" data-bs-target="#Panda_V3_3">
+          <div class="card">
+            <img src="./kepek/E91.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Ikarus EAG E91.51 | RYH | BKK FUTÁR [BÉTA v0.8]</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./kepek/A21.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">MAN Lion's City A21 | BKK FUTÁR | NAY&PDN (valós) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./kepek/12&18.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">MAN New Lion's City 12&18 | VOLÁNBUSZ (fiktív) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./kepek/c60.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Ikarus C60 | VOLÁNBUSZ (valós) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+            <h1 class="my-5"></h1>
+        </div>
+    </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col" data-bs-toggle="modal" data-bs-target="#Panda_V3_3">
+          <div class="card">
+            <img src="./kepek/Conecto628.jpg" class="card-img-top" alt="Conecto 628c & 628g">
+            <div class="card-body">
+              <h5 class="card-title">MB Conecto 628c & 628g | VOLÁNBUSZ (fiktív) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./kepek/Sl_sg.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MAN Lion's Classic SL-SG | VOLÁNBUSZ (valós) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="display: none;">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MAN New Lion's City 12&18 | VOLÁNBUSZ (fiktív) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="display: none;">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ikarus C60 | VOLÁNBUSZ (valós) buszcsomag</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+            <h1 id="repaints" class="my-4">Festéseink</h1>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./kepek/ik415.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ikarus 415 OmsiWater | BPI-415 | BKK-BKV (valós) festés</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">BUSSCAR VISSTA DD | Volánbusz (fiktív) festéscsomag</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./kepek/C56.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ikarus C56.42 | Magyar festéscsomag (valós) | Hungarian repaintpack (real)</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Irisbus Interurban Crossway | Hajdú volán+ÉMKK festéscsomag (valós)</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+          <h1 class="my-5"></h1>
+      </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./kepek/NF6D.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Siemens NF6D | H-START TramTrain festés (fiktív)</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./kepek/Tourismo.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">MB O403 Tourismo | Volánbusz+KNYKK+Vértes volán (valós) festéscsomag</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./kepek/OC500LE.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">MB OC500LE | Magyar (fiktív) mega festéscsomag</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./kepek/A76.jpg" class="card-img-top" alt="A76">
+        <div class="card-body">
+          <h5 class="card-title">MAN NM223 A76 (Sobol) | BKK Budapest (valós) festés</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+        <h1 class="my-5"></h1>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="./kepek/Vector_next.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">PAZ Vector Next | Magyar (fiktív) festéscsomag</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./kepek/N4020.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Neoplan N4020/3 Megatrans | Volánbusz (valós) festéscsomag</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./kepek/Tour_18.jpg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Neoplan Tourliner 18 | Volánbusz (valós) festéscsomag</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">VF 18 CRRC-Yutong | Volánbusz (fiktív) festéscsomag & hangmódosítás</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+      <h1 class="my-5"></h1>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="col">
+  <div class="card">
+    <img src="./kepek/A78_TÜ.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">MAN Lion's City A78 TÜ | Volánbusz (valós) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/7900LH.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Volvo 7900LH | BKK & Volánbusz Budapest (valós) festéscsomag & hangmódosítás</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/Citaro.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">MB O530 Citaro | VOLÁNBUSZ (valós) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/Cito.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">MB O520 Cito | VOLÁNBUSZ (fiktív) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+</div><div class="row">
+  <div class="col-12">
+      <h1 class="my-5"></h1>
+  </div>
+</div><div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="col">
+  <div class="card">
+    <img src="./kepek/A23.jpg" class="card-img-top" alt="A23">
+    <div class="card-body">
+      <h5 class="card-title">MAN Lion's City A23 GL | VOLÁNBUSZ (valós) festéscsomag & hangmódosítás</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/ik435.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Ikarus 435 | Vasi Volán (valós) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/ik145_helykoz.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Ikarus 415.26 | Kisalföld volán (valós) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/Conecto628.jpg" class="card-img-top" alt="Conecto 628c & 628g">
+    <div class="card-body">
+      <h5 class="card-title">MB Conecto 628c & 628g | Volánbusz SWF Székesfehérvár (ex-Lublin) (valós) festéscsomag.rar</h5>
+    </div>
+  </div>
+</div>
+</div><div class="row">
+  <div class="col-12">
+      <h1 class="my-5"></h1>
+  </div>
+</div><div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="col">
+  <div class="card">
+    <img src="./kepek/Dunatul_I.jpg" class="card-img-top" alt="Dunántúl Buszok">
+    <div class="card-body">
+      <h5 class="card-title">HUNPaint Dunántúl festéscsomag Volánbusz fordásoknak I.</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/Testbusz.jpg" class="card-img-top" alt="Tesztbusz festés">
+    <div class="card-body">
+      <h5 class="card-title">HUNPaint MAN New Lion's City Volánbusz tesztbusz Móvár (fiktív) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/Intouro.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">MB Intouro C633 E5 | Volánbusz LKZ (ex-Gemenc) (valós) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Ikarus Egyedi E95 | Volánbusz PAP-15 és MDE-549 (valós) festések </h5>
+    </div>
+  </div>
+</div>
+</div><div class="row">
+  <div class="col-12">
+      <h1 class="my-5"></h1>
+  </div>
+</div><div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="col">
+  <div class="card">
+    <img src="./kepek/C2_Sg.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">MB Citaro C2-S2 G E6 CNG Saint Servan DLC Volánbusz AA NG 091 (fiktív) festés</h5>
+    </div>
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="./kepek/ik263.jpg" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Ikarus 263.10 Volánbusz GZF festéscsomag (valós)</h5>
+    </div>
+  </div>
+</div>
+<div class="col" style="display: none;">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">MB Intouro C633 E5 | Volánbusz LKZ (ex-Gemenc) (valós) festéscsomag</h5>
+    </div>
+  </div>
+</div>
+<div class="col" style="display: none;">
+  <div class="card">
+    <img src="..." class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Ikarus Egyedi E95 | Volánbusz PAP-15 és MDE-549 (valós) festések </h5>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row">
+      <div class="col-12">
+          <h1 id="cars" class="my-4">Autók</h1>
+      </div>
+  </div>
+  <div class="card mb-3">
+    <img src="..." class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">LADA Niva 2121 4x4</h5>
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-12">
+          <h1 id="other" class="my-4">Egyéb modok</h1>
+      </div>
+  </div>
+  <div class="card mb-3">
+    <img src="./kepek/futar.png" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Omsiempire BKK FUTÁR</h5>
+      </div>
+  </div>
+    </div>
+  </div><div class="modal fade" id="Panda_V3_3" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cím</h5>
+          </div>
+          <div class="modal-body">
+              <div class="container-fluid">
+                  <div class="row">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png" class="d-block w-100" alt="...">
+        </div>
+          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+                      <div class="col-ms-9">
+                          <h2>Cím</h2>
+          <b>Készítő: </b>?<br>
+          <b>Eredeti:</b>?<br>
+          <b>Kiadva: </b>2022.11.16.<br>
+          <b class="text-danger">ENGEDÉLY NÉLKÜL MÓDOSÍTANI TILOS!!!</b></p>
+          <a type="button" class="btn btn-primary" target="_blank" href="">Letöltés</a>
+          <a type="button" class="btn btn-info text-light" target="_blank" href="">Kijelzőcsomag</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+          </div>
+      </div>
+  </div>
+</div></div>
+
+
+</body></html>
