@@ -78,9 +78,9 @@
 
       <form class="bg-torzs p-3 text-center">
       <label for="szelesseg">Szélesség (mm):</label>
-      <input type="text" class="form-control" id="szelesseg" min="10" max="1000" value="297" />
+      <input type="number" class="form-control" id="szelesseg" min="10" max="1000" value="297" />
       <label for="magassag">Magasság (mm):</label>
-      <input type="text" class="form-control" id="magassag" min="10" max="1400" value="420" />
+      <input type="number" class="form-control" id="magassag" min="10" max="1400" value="420" />
       <label for="ptip">Papírtípus:</label>
       <select class="form-control" id="papirtipus">
        <option value="38">Pauszpapír (115g/m³)</option>
@@ -90,7 +90,7 @@
        <option value="45">Szatén, normál, fotópapír (190g/m³)</option>
        <option value="65">Művész, kreatív, kartonpapír (300g/m³)</option>
      </select>
-     <input type="button" value="Kalkuláció" id="kalkulalGomb" onclick="kalkulal()" />
+     <input type="button" onclick="kalkulal()" />
      <div id="valasz">
       <p>A kalkuláció alapja:</p>
       <ul>
