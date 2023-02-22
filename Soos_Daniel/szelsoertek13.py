@@ -8,8 +8,8 @@ min = lista[0]
 max = lista[0]
 for elem in lista:
     if elem < min:
-        min = szam
+        min = szam % 2 == 0
     if elem > max:
-        max = szam
+        max = szam % 2 == 0
 print('A legkisebb szam a listában:', min)
 print('A legnagyobb szam a listában:', max)
