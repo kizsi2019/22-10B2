@@ -1,0 +1,14 @@
+ Ritchie 1972 C Dennis
+Kemeny 1964 BASIC John George
+Kurtz 1964 BASIC Thomas Eugene
+Gosling 1995 Java James
+Stroustrup 1983 C++ Bjarne
+Wall 1987 Perl Larry
+Eich 1995 JavaScript Brendan
+ Wirth 1970 Pascal Niklaus
+Richard 1946 ENIAC Short Code
+John 1946 ENIAC Short Code
+Lerdorf 1995 PHP Rasmus
+Van Rossum 1989 Python Guido
+Hejlsberg 2000 C# Anders
+Jensen 1970 Pascal Kathleen

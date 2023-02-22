@@ -1,0 +1,1 @@
+szo = (input("Adj meg egy szót! "))
