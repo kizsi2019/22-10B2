@@ -1,0 +1,14 @@
+C;1972
+BASIC;1964
+BASIC;1964
+Java;1995
+C++;1983
+Perl;1987
+JavaScript;1995
+Pascal;1970
+ENIAC Short Code;1946
+ENIAC Short Code;1946
+PHP;1995
+Python;1989
+C#;2000
+Pascal;1970
