@@ -24,6 +24,6 @@ class Diak:
     def flotta_info():
         return 'Üdvözölek az iskolába!'
 
-diak_01 = Diak('Csapó Levente', '10.B', 17)
+diak_01 = Diak('Csapó Levente', '10.B', 2005)
 
 print(diak_01.info())
