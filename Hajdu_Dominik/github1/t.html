@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>A Vércsoport jellemzői</h1>
+<ul>
+    <li id="A">
+    A Vércsoportod úgy lehet, hogy mindkét szülőtől A tipust örökölsz, 
+    vagy az egyik szülőtől A-t, a másiktól 0-ást.
+    </li>
+
+    <li id="B">
+    B Vércsoportod úgy lehet, hogy mindkét szülőtől A tipust örökölsz, 
+    vagy az egyik szülőtől B-st, a másiktól 0-ást.
+    </li>
+
+    <li id="AB">
+    AB Vércsoportod úgy lehet, hogy mindkét szülőtől A tipust örökölsz, 
+    vagy az egyik szülőtől A-t, a másiktól B-st.
+    </li>
+
+    <li id="0">
+    0 Vércsoportod úgy lehet, hogy mindkét szülőtől 0 tipust örökölsz, 
+    </li>
+ </ul>
+<script>
+        let vercsoport = prompt('Mi a Vércsoportod? A, B, AB, 0')
+        let listaelem = document.getElementById(vercsoport)
+        listaelem.style.backgroundColor="yellow"
+        listaelem.style.fontWeight="Bold"
+        listaelem.style.border='1px sloid blue'     
+</script>
+</body>
+</html>
