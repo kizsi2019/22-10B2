@@ -1,7 +1,6 @@
 ido = int(input("Hány órás visszaszámlálást tervezünk? "))
-if ido > 0:
+tarolo = None
+while tarolo <= ido:
     print("Visszaszámlálás:",ido)
-    valasz = input("Fel kell függeszteni a visszaszámlálást (i/n)? ")
-    if 
-    print(ido - 1)
-    
+    ido = ido - 1   
+print("A rakéta a visszaszámlálást követően ennyi órával indult:", tarolo)

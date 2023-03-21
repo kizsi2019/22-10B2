@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>A vércsoportok jellemzői</h1>
+    <ul>
+        <li id="A">A-vércsoportod úgy lehet, ha mindkét szülőtől A típust örökölsz, vagy az egyik szülőtől A-t, a másik szülőtől pedig 0-st.</li>
+        <li id="B">B-vércsoportod úgy lehet, ha mindkét szülőtől B típust örökölsz, vagy az egyik szülőtől B-t, a másik szülőtől pedig 0-st.</li>
+        <li id="AB">AB-vércsoportod úgy lehet, ha az egyik szülőtől A-t, a másiktól B-t örökölsz.</li>
+        <li id="0">0-s vércsoportod úgy lehet, ha mindkét szülőd vércsoportja 0-s.</li>
+    </ul>
+    <script>
+        let vercsoport = prompt("Mi a vércsoportod? (A, B, 0, AB)")
+        let listaelem = document.getElementById(vercsoport)
+        listaelem.style.backgroundColor = "yellow"
+        listaelem.style.fontWeight = "bold"
+        listaelem.style.border = "1px solid blue"
+
+        let vezeteknev = prompt("Mi a vezetékneved?")
+        let keresztknev = prompt("Mi a keresztneved?")
+
+        console.log ("Üdv a weblapon: " + vezeteknev + keresztknev)
+        document.write ("<p>Üdv a weblapon: " + vezeteknev +  " " + keresztknev + "</p>")
+    </script>
+</body>
+</html>
