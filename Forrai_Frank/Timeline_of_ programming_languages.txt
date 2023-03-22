@@ -1,5 +1,3 @@
-https://en.wikipedia.org/wiki/Timeline_of_programming_languages
-year;programming language;first name; last name of chief developer
 1972;C;Dennis; Ritchie
 1964;BASIC;John George;Kemeny
 1964;BASIC;Thomas Eugene;Kurtz
