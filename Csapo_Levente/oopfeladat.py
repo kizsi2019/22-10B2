@@ -1,0 +1,3 @@
+class Diak
+
+Class Tanarok
