@@ -7,7 +7,7 @@ body:not(#home), .modal-body{
 /*Főoldal*/
 #home{
     height: 100vh;
-    background-image: url(../img/homebg.jpg);
+    background-image: url(img/homebg.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -36,7 +36,7 @@ nav a:first-child img{
 }
 
 .banner{
-    background-image: url(../img/homebg.jpg);
+    background-image: url(img/homebg.jpg);
     background-position: center center;
     background-size: cover;
     height: 400px;
