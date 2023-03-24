@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+        <h1> A vércsoport jellemzői <h1>
+            <ul>
+                <li id="A">
+                    A vércsoportod úgy lehet, hogy mindkét szülőtől A típust örökölsz, vagy az egyik szülőtől A-t, a másiktól 0-ást
+                 
+                    </li>
+
+                    <li id="B">
+                        A vércsoportod úgy lehet, hogy mindkét szülőtől B típust örökölsz, vagy az egyik szülőtől B-t, a másiktól 0-ást
+                
+                    </li>
+
+                    <li id="A">
+                        A vércsoportod úgy lehet, hogy mindkét szülőtől A típust örökölsz, vagy az egyik szülőtől A-t, a másiktól 0-ást
+          
+                        </li>
+
+                       <li id="AB">Ab vércsoportod úgy lehet,ha az egyik szülőtől A-t, a másiktól B-t örökölsz
+                    
+                      </li>
+
+                    <li id="0">0-s vércsoportod úgy lehet, ha mindkét szülőd vércsoportja 0-s.
+
+                        </li>
+            </ul>
+                        <script>
+                            let vercsoport = prompt('Mi a vércsoportod? A, B, AB, 0')
+                            let listaelem = document.getElementById(vercsoport)
+                            listaelem.style.backgroundColor = "yellow"
+                            listaelem.style.fontWeight = "bold"
+                            listaelem.style.border = "1px solid blue"
+                        </script>
+</body>
+</html>
