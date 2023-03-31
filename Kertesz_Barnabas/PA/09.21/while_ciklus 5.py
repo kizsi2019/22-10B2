@@ -1,5 +1,16 @@
-szo = None
+def siker(pontszam):
+    if pontszam >= 48:
+        return True
+    else:
+        return False
+    
+nev = None
 
-while szo != '':
-    szo = input("Adj meg szavakat! Ha kilépnél, a szó helyett csak egy ENTER-t üss!")
-print(szo)
+while nev != '':
+    nev = input('Add meg a vizsgázó nevét! ')
+    if nev:
+        pontszam = int(input("Add meg a pontszámát ? "))
+        if siker (pontszam):
+            print(nev , "vizsgája sikeres")
+        else:
+            print(nev , "vizsgája sikertelen")
