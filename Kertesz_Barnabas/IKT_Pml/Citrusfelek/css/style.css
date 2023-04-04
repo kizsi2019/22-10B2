@@ -34,6 +34,8 @@ h3{
 
 li{
     list-style-image: url(../img/lemon2.png);
+    float: left;
+    margin-left: 40px;
 }
 
 
@@ -42,6 +44,7 @@ td,th{
 }
 
 thead>tr:first-child{    
-    letter-spacing: 2px;    
+    letter-spacing: 2px;   
+    text-transform: uppercase; 
 }
 
