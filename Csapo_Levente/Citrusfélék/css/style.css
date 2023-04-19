@@ -42,6 +42,7 @@ td,th{
 }
 
 thead>tr:first-child{    
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
+    text-transform: uppercase;    
 }
 
