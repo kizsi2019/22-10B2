@@ -1,0 +1,37 @@
+#1. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja az összes páros számot a listában.
+
+
+
+#2. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a listában található legnagyobb számot.
+
+
+
+3. Készíts egy függvényt, amely egy adott szöveget vár bemenetként, majd visszaadja a szövegben található szavak számát.
+
+
+4. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a listában található számok átlagát.
+
+
+
+5. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja az összes páros számot a listában.
+
+
+6. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a listában található legkisebb és legnagyobb szám közötti különbséget.
+
+
+
+7. Készíts egy függvényt, amely egy adott sztringet vár bemenetként, majd visszaadja a szövegben található szavak számát.
+
+
+
+8. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a listában található számok átlagát, és azok közül azoknak az indexeit, amelyek nagyobbak, mint az átlag.
+
+
+
+9. Készíts egy függvényt, amely egy adott számlistát vár bemenetként, majd visszaadja a lista elemeit megfordítva.
+
+
+
+
+
+
