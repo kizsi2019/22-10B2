@@ -1,0 +1,87 @@
+/* Fejléc stílusa */
+
+header {
+    background-image: url("...");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    background-image: url(../images/bg1.jpg);
+}
+
+
+/* Menüpontok stílusa */
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav {
+    background-color: #007bff;
+}
+
+.navbar {
+    color: white;
+}
+
+
+/* Aktív menüpont stílusa */
+
+.nav-item.active .nav-link {
+    color: white;
+}
+
+
+/* Alpesi síelés címének stílusa */
+
+#alpesi h2 {
+    color: red;
+}
+
+
+/* Nordikus síelés címének stílusa */
+
+#nordikus h2 {
+    color: green;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+
+h1 {
+    background-color: rgb(68, 192, 226);
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Arial;
+    font-style: italic;
+}
+
+.nav-item {
+    font-size: 25px;
+
+
+
+}
+
+h2 {
+    color: #007bff;
+    padding-left: dotted(3);
+    font-variant: small-caps;
+    margin: 5 , 15;
+
+
+
+
+}
+#nordikus{
+    padding: 20px 0px 20px 0px;
+    max-width: 80%;
+
+
+}
+
+#freestyle{
+    padding: 20px 0px 20px 0px;
+    max-width: 80%;
+
+}
