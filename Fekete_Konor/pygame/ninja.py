@@ -139,7 +139,8 @@ clock = pygame.time.Clock()
 
 platform_surf = pygame.image.load('img/platform.png').convert_alpha()
 platform_rects = [platform_surf.get_rect(midtop=(WIDTH / 2, HEIGHT - 150)),
-                  platform_surf.get_rect(midtop=(WIDTH + 250, HEIGHT - 200))]
+                  platform_surf.get_rect(midtop=(WIDTH + 250, HEIGHT - 200)),
+                  platform_surf.get_rect(midtop=(WIDTH -1500, HEIGHT - 220))]
 
 ninja = pygame.sprite.GroupSingle()
 ninja.add(Ninja())
