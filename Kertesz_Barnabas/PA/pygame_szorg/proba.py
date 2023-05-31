@@ -7,7 +7,6 @@ pygame.init()
 # A képernyő mérete
 screen_width = 800
 screen_height = 600
-
 # Színek
 white = (255, 255, 255)
 black = (0, 0, 0)
@@ -35,7 +34,7 @@ font = pygame.font.Font(None, 36)
 background_image = pygame.image.load("PA/pygame_szorg/kep/backgro.png")
 background_image = pygame.transform.scale(background_image, (screen_width, screen_height))
 
-# Az utas és a szöveg képeinek betöltése
+# Szövegek 
 start_text = font.render("Nyomj SPACE-t a kezdéshez", True, white)
 game_over_text = font.render("Játék vége! Pontszám: " + str(score), True, white)
 
@@ -43,12 +42,12 @@ game_over_text = font.render("Játék vége! Pontszám: " + str(score), True, wh
 window = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Metrós játék")
 
-# A kezdőszöveg kirajzolása
+# A kezdőszöveg kiírása
 def draw_start_screen():
     start_rect = start_text.get_rect(center=(screen_width // 2, screen_height // 2))
     window.blit(start_text, start_rect)
 
-# A game over szöveg kirajzolása
+# A game over szöveg kiírása
 def draw_game_over_screen():
     game_over_rect = game_over_text.get_rect(center=(screen_width // 2, screen_height // 2))
     window.blit(game_over_text, game_over_rect)
@@ -69,7 +68,6 @@ class Passenger:
 # Az utasok listája
 passengers = []
 
-# Kezdetben létrehozunk 5 utast
 for _ in range(9):
     passengers.append(Passenger())
 
@@ -116,6 +114,6 @@ while not game_over:
         draw_game_over_screen()
     
     pygame.display.update()
-
+print(score)
 # Pygame leállítása
 pygame.quit()
